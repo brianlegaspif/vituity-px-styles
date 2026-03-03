@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* Custom font */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Fix stretched logo */
+.clinic-provider-logo {
+  width: auto !important;
+  max-width: 200px;
+  object-fit: contain;
+}
+
+/* Separator line under question title */
+.TitleBar.survey-title {
+  border-bottom: 1px solid #E5E7EB;
+  padding-bottom: 12px;
+}
+
+/* Rounded response blocks */
+.RichTextButton {
+  border-radius: 12px !important;
+}
+
+.RichTextButton .SlateRTE {
+  border-radius: 12px !important;
+}
