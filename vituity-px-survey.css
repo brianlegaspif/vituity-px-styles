@@ -2,7 +2,7 @@
 
 /* Custom font */
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
 }
 
 /* Fix stretched logo */
@@ -19,10 +19,15 @@ body {
 }
 
 /* Rounded response blocks */
-.RichTextButton {
-  border-radius: 12px !important;
+button.RichTextButton {
+  border-radius: 16px !important;
+  overflow: hidden !important;
 }
 
-.RichTextButton .SlateRTE {
-  border-radius: 12px !important;
+button.RichTextButton .SlateRTE {
+  border-radius: 16px !important;
+}
+
+button.RichTextButton .SlateRTE [data-color] {
+  border-radius: 16px !important;
 }
