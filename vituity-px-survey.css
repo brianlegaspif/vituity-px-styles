@@ -5,11 +5,15 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
 }
 
-/* Fix stretched logo */
-.clinic-provider-logo {
+/* Fix stretched logo — broad selector to catch all pages */
+.clinic-provider-logo,
+img[alt*="Logo"],
+.ClinicLogo img {
   width: auto !important;
-  max-width: 200px;
-  object-fit: contain;
+  max-width: 200px !important;
+  height: auto !important;
+  max-height: 2.7em !important;
+  object-fit: contain !important;
 }
 
 /* Separator line under question title */
