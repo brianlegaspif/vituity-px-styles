@@ -35,3 +35,16 @@ button.RichTextButton .SlateRTE {
 button.RichTextButton .SlateRTE [data-color] {
   border-radius: 16px !important;
 }
+
+/* Google Review button on completion page */
+.slate-content-referral a {
+  display: inline-block !important;
+  padding: 14px 32px !important;
+  background: rgb(66, 133, 244) !important;
+  color: #ffffff !important;
+  border-radius: 16px !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  margin-top: 8px !important;
+}
