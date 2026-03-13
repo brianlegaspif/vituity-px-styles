@@ -36,15 +36,69 @@ button.RichTextButton .SlateRTE [data-color] {
   border-radius: 16px !important;
 }
 
-/* Google Review button on completion page */
+/* ========================================
+   Completion Page — Google Review as button
+   ======================================== */
+
 .slate-content-referral a {
   display: inline-block !important;
-  padding: 14px 32px !important;
-  background: rgb(66, 133, 244) !important;
-  color: #ffffff !important;
-  border-radius: 16px !important;
+  background-color: #3B82F6 !important;
+  color: #FFFFFF !important;
+  padding: 0.875rem 2rem !important;
+  border-radius: 0.75rem !important;
   text-decoration: none !important;
   font-weight: 600 !important;
-  font-size: 20px !important;
-  margin-top: 8px !important;
+  font-size: 1.125rem !important;
+  letter-spacing: 0.01em;
+  transition: background-color 0.2s ease;
+  box-shadow: 0 1px 3px rgba(59, 130, 246, 0.3);
+  margin-top: 0.5rem;
+}
+
+.slate-content-referral a:hover {
+  background-color: #2563EB !important;
+  text-decoration: none !important;
+}
+
+.slate-content-referral a:active {
+  background-color: #1D4ED8 !important;
+}
+
+/* Override slate inline text color inside the button */
+.slate-content-referral a span,
+.slate-content-referral a [style] {
+  color: #FFFFFF !important;
+}
+
+.slate-content-referral {
+  padding: 1rem 0;
+}
+
+/* ========================================
+   Grader / NPS Slider Improvements
+   ======================================== */
+
+.component-slider .slider-anchor {
+  font-size: 1rem;
+}
+
+.component-slider .slider-anchor button {
+  font-size: 0.9rem !important;
+  color: #4B5563 !important;
+}
+
+.component-slider .slider-anchor button.font-weight-bold {
+  color: #1F2937 !important;
+}
+
+.component-slider .select-number {
+  background-color: #EEF2FF !important;
+  color: #3B82F6 !important;
+  border-radius: 0.5rem !important;
+  font-weight: 500 !important;
+}
+
+.component-slider .slider-labels {
+  font-size: 0.95rem;
+  color: #6B7280 !important;
 }
